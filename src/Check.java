@@ -27,9 +27,9 @@ public class Check
 
             for (int i=0; i<thirdlen; i++)
             {
-                 if ( count1<firstlen && third.charAt(i) == first.charAt(count1)) {count1+=1; continue;}
+                 if ( count1<firstlen && third.charAt(i) == first.charAt(count1)) {count1+=1;}
 
-               else if ( count2<secondlen && third.charAt(i) == second.charAt(count2)) {count2+=1; continue;}
+               else if ( count2<secondlen && third.charAt(i) == second.charAt(count2)) {count2+=1; }
                else if (count1 ==firstlen && count2==secondlen){break;}
 
                else { check= false;
